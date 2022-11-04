@@ -34,7 +34,7 @@ const Carousel = () => {
         className="absolute top-[50%] text-3xl text-black cursor-pointer left-8"
       />
       <BsFillArrowRightSquareFill
-        onClick={prevSlide}
+        onClick={nextSlide}
         className="absolute top-[50%] text-3xl text-black cursor-pointer right-8"
       />
       {sliderData.map((item, index) => {
